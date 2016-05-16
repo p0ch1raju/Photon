@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A705631CE61C0100D27A92 /* toDoListAdd_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A705621CE61C0100D27A92 /* toDoListAdd_b.png */; };
+		05A705651CE61C5600D27A92 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A705641CE61C5600D27A92 /* note.png */; };
 		AC5D405B1C9DB77200D445B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */; };
 		AC5D405D1C9DB77200D445B9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D405C1C9DB77200D445B9 /* FirstViewController.swift */; };
 		AC5D405F1C9DB77200D445B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D405E1C9DB77200D445B9 /* SecondViewController.swift */; };
 		AC5D40621C9DB77200D445B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40601C9DB77200D445B9 /* Main.storyboard */; };
 		AC5D40641C9DB77200D445B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40631C9DB77200D445B9 /* Assets.xcassets */; };
 		AC5D40671C9DB77200D445B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40651C9DB77200D445B9 /* LaunchScreen.storyboard */; };
+		AC5D40701C9DB95200D445B9 /* clock hand.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5D406E1C9DB95200D445B9 /* clock hand.png */; };
+		AC5D40711C9DB95200D445B9 /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5D406F1C9DB95200D445B9 /* wheel.png */; };
+		AC5D40731C9DC83D00D445B9 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40721C9DC83D00D445B9 /* line.png */; };
+		AC5D40931C9DD78800D445B9 /* new wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40921C9DD78800D445B9 /* new wheel.png */; };
+		AC628B241CA8958C002471EB /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628B231CA8958C002471EB /* TaskListViewController.swift */; };
+		ACB5CC5A1C9F087D00ECF445 /* blueBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACB5CC591C9F087D00ECF445 /* blueBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A705621CE61C0100D27A92 /* toDoListAdd_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toDoListAdd_b.png; path = ../../toDoListAdd_b.png; sourceTree = "<group>"; };
+		05A705641CE61C5600D27A92 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note.png; path = ../../note.png; sourceTree = "<group>"; };
 		AC5D40571C9DB77200D445B9 /* Productivity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Productivity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5D405C1C9DB77200D445B9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		AC5D40631C9DB77200D445B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5D40661C9DB77200D445B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5D40681C9DB77200D445B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5D406E1C9DB95200D445B9 /* clock hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock hand.png"; path = "../../clock hand.png"; sourceTree = "<group>"; };
+		AC5D406F1C9DB95200D445B9 /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel.png; path = ../../wheel.png; sourceTree = "<group>"; };
+		AC5D40721C9DC83D00D445B9 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../line.png; sourceTree = "<group>"; };
+		AC5D40921C9DD78800D445B9 /* new wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new wheel.png"; path = "../../new wheel.png"; sourceTree = "<group>"; };
+		AC628B231CA8958C002471EB /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskListViewController.swift; path = ../TaskListViewController.swift; sourceTree = "<group>"; };
+		ACB5CC591C9F087D00ECF445 /* blueBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueBackground.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +75,16 @@
 				AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */,
 				AC5D405C1C9DB77200D445B9 /* FirstViewController.swift */,
 				AC5D405E1C9DB77200D445B9 /* SecondViewController.swift */,
+				AC628B231CA8958C002471EB /* TaskListViewController.swift */,
 				AC5D40601C9DB77200D445B9 /* Main.storyboard */,
+				05A705641CE61C5600D27A92 /* note.png */,
+				05A705621CE61C0100D27A92 /* toDoListAdd_b.png */,
+				AC5D40921C9DD78800D445B9 /* new wheel.png */,
+				AC5D40721C9DC83D00D445B9 /* line.png */,
 				AC5D40631C9DB77200D445B9 /* Assets.xcassets */,
+				AC5D406E1C9DB95200D445B9 /* clock hand.png */,
+				ACB5CC591C9F087D00ECF445 /* blueBackground.jpg */,
+				AC5D406F1C9DB95200D445B9 /* wheel.png */,
 				AC5D40651C9DB77200D445B9 /* LaunchScreen.storyboard */,
 				AC5D40681C9DB77200D445B9 /* Info.plist */,
 			);
@@ -126,9 +150,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5D40701C9DB95200D445B9 /* clock hand.png in Resources */,
+				05A705651CE61C5600D27A92 /* note.png in Resources */,
+				ACB5CC5A1C9F087D00ECF445 /* blueBackground.jpg in Resources */,
+				AC5D40931C9DD78800D445B9 /* new wheel.png in Resources */,
+				05A705631CE61C0100D27A92 /* toDoListAdd_b.png in Resources */,
+				AC5D40711C9DB95200D445B9 /* wheel.png in Resources */,
 				AC5D40671C9DB77200D445B9 /* LaunchScreen.storyboard in Resources */,
 				AC5D40641C9DB77200D445B9 /* Assets.xcassets in Resources */,
 				AC5D40621C9DB77200D445B9 /* Main.storyboard in Resources */,
+				AC5D40731C9DC83D00D445B9 /* line.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +173,7 @@
 				AC5D405F1C9DB77200D445B9 /* SecondViewController.swift in Sources */,
 				AC5D405B1C9DB77200D445B9 /* AppDelegate.swift in Sources */,
 				AC5D405D1C9DB77200D445B9 /* FirstViewController.swift in Sources */,
+				AC628B241CA8958C002471EB /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,7 @@
 				AC5D406D1C9DB77200D445B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
